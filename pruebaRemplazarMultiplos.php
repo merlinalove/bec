@@ -1,9 +1,7 @@
 <?php
 include 'clases/RemplazarMultiplos.php';
-//Definir el numero de elementos $elementos = range(desde,hasta) 
+ 
 $elementos = range(1,100);
-//Definir las condiciones para la sustitucion
-//FORMATO $condiciones = array("PalabraParaRemplazar"=>(numero),"OtraPalabra"=>(otronumero,otronumero,...));
 $condiciones = array(
     "Linio" => array(3),
     "IT" => array(5),
