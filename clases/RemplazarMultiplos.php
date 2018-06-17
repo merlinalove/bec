@@ -4,15 +4,19 @@
 
 	class RemplazarMultiplos{
 		
-		private $elementos;
-		private $condiciones;
-		private $numeros;
-		private $resultado;
+		public $elementos;
+		public $condiciones;
+		public $numeros;
+		public $resultado;
 				
 		function __construct()
 		{
 			
 		}		
+		
+		//Definir el numero de elementos $elementos = range(desde,hasta)
+		//Definir las condiciones para la sustitucion
+		//FORMATO $condiciones = array("PalabraParaRemplazar"=>(numero),"OtraPalabra"=>(otronumero,otronumero,...));
 		
 		function aplicarCondiciones($elementos,$condiciones)
 		{			 
@@ -36,7 +40,8 @@
 			}
  
 		}
-				$this->resultado=$resultado;			
+				    
+		          $this->resultado=$resultado;			
 			
  }
 			
